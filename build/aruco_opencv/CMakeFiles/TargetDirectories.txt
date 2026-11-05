@@ -1,0 +1,12 @@
+/root/exp_ws/build/aruco_opencv/CMakeFiles/uninstall.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/aruco_opencv_uninstall.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/aruco_opencv.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/aruco_tracker.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/aruco_tracker_autostart.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/test.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/edit_cache.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/rebuild_cache.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/list_install_components.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/install.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/install/local.dir
+/root/exp_ws/build/aruco_opencv/CMakeFiles/install/strip.dir

@@ -1,0 +1,298 @@
+[0.038s] Invoking command in '/root/exp_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs -DCMAKE_INSTALL_PREFIX=/root/exp_ws/install/aruco_opencv_msgs
+[0.250s] -- The C compiler identification is GNU 13.3.0
+[0.413s] -- The CXX compiler identification is GNU 13.3.0
+[0.463s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.779s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.781s] -- Detecting C compile features - done
+[0.802s] -- Detecting CXX compiler ABI info
+[1.137s] -- Detecting CXX compiler ABI info - done
+[1.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.158s] -- Detecting CXX compile features
+[1.161s] -- Detecting CXX compile features - done
+[1.213s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.649s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.106s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.607s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.623s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.742s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.280s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.245s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.273s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.634s] -- Found PythonExtra: /usr/bin/python3  
+[8.986s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.163s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.208s] -- Added test 'lint_cmake' to check CMake code style
+[9.224s] -- Configuring done (9.1s)
+[9.413s] -- Generating done (0.2s)
+[9.452s] -- Build files have been written to: /root/exp_ws/build/aruco_opencv_msgs
+[9.473s] Invoked command in '/root/exp_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs -DCMAKE_INSTALL_PREFIX=/root/exp_ws/install/aruco_opencv_msgs
+[9.476s] Invoking command in '/root/exp_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/aruco_opencv_msgs -- -j14 -l14
+[9.626s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[10.151s] [  1%] Built target aruco_opencv_msgs__rosidl_generator_type_description
+[10.217s] [  1%] Built target ament_cmake_python_copy_aruco_opencv_msgs
+[10.244s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.382s] [  5%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__description.c.o[0m
+[11.481s] [  7%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c.o[0m
+[11.582s] [  9%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__functions.c.o[0m
+[11.696s] [ 11%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__description.c.o[0m
+[11.786s] [ 12%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__type_support.c.o[0m
+[11.870s] [ 14%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__functions.c.o[0m
+[11.951s] [ 16%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__description.c.o[0m
+[12.053s] [ 18%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c.o[0m
+[12.115s] [ 20%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c.o[0m
+[12.243s] [ 22%] [32m[1mLinking C shared library libaruco_opencv_msgs__rosidl_generator_c.so[0m
+[12.341s] [ 22%] Built target aruco_opencv_msgs__rosidl_generator_c
+[12.796s] running egg_info
+[12.796s] creating aruco_opencv_msgs.egg-info
+[12.823s] writing aruco_opencv_msgs.egg-info/PKG-INFO
+[12.824s] writing dependency_links to aruco_opencv_msgs.egg-info/dependency_links.txt
+[12.824s] writing top-level names to aruco_opencv_msgs.egg-info/top_level.txt
+[12.824s] writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[12.945s] reading manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[12.946s] writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[13.031s] [ 22%] Built target ament_cmake_python_build_aruco_opencv_msgs_egg
+[13.053s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.529s] [ 25%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/aruco_detection__type_support.cpp.o[0m
+[13.653s] [ 27%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/marker_pose__type_support.cpp.o[0m
+[13.749s] [ 29%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/board_pose__type_support.cpp.o[0m
+[13.866s] [ 31%] [32m[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_c.so[0m
+[13.965s] [ 31%] Built target aruco_opencv_msgs__rosidl_typesupport_c
+[13.993s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.639s] [ 35%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c.o[0m
+[14.743s] [ 37%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c.o[0m
+[14.830s] [ 38%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/board_pose__type_support.c.o[0m
+[14.917s] [ 40%] [32m[1mLinking C shared library libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.012s] [ 40%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c
+[15.043s] [ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.677s] [ 44%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support_c.cpp.o[0m
+[16.665s] [ 46%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support_c.cpp.o[0m
+[17.588s] [ 48%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/board_pose__type_support_c.cpp.o[0m
+[18.429s] [ 50%] [32m[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.617s] [ 50%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c
+[18.694s] [ 51%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.525s] [ 51%] Built target aruco_opencv_msgs__cpp
+[19.552s] [ 53%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.101s] [ 55%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/aruco_detection__type_support.cpp.o[0m
+[20.700s] [ 57%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/marker_pose__type_support.cpp.o[0m
+[21.297s] [ 59%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/board_pose__type_support.cpp.o[0m
+[22.032s] [ 61%] [32m[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_cpp.so[0m
+[22.143s] [ 61%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp
+[22.163s] [ 62%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.733s] [ 64%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp.o[0m
+[23.666s] [ 66%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp.o[0m
+[24.475s] [ 68%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp.o[0m
+[25.218s] [ 70%] [32m[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.392s] [ 70%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp
+[25.429s] [ 72%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[26.122s] [ 74%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/aruco_detection__type_support.cpp.o[0m
+[27.338s] [ 75%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/marker_pose__type_support.cpp.o[0m
+[28.410s] [ 77%] [32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/board_pose__type_support.cpp.o[0m
+[29.584s] [ 79%] [32m[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.803s] [ 79%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp
+[29.858s] [ 79%] Built target aruco_opencv_msgs
+[29.914s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.792s] [ 81%] Built target aruco_opencv_msgs__py
+[30.849s] [ 83%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_aruco_detection_s.c.o[0m
+[31.164s] [ 85%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_marker_pose_s.c.o[0m
+[31.412s] [ 87%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_board_pose_s.c.o[0m
+[31.745s] [ 88%] [32m[1mLinking C shared library libaruco_opencv_msgs__rosidl_generator_py.so[0m
+[31.859s] [ 88%] Built target aruco_opencv_msgs__rosidl_generator_py
+[31.928s] [ 90%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.177s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[32.266s] [ 92%] Built target aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c
+[32.323s] [ 94%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[32.578s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so[0m
+[32.650s] [ 96%] Built target aruco_opencv_msgs_s__rosidl_typesupport_c
+[32.694s] [ 98%] [32mBuilding C object CMakeFiles/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.967s] [100%] [32m[1mLinking C shared module rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[33.041s] [100%] Built target aruco_opencv_msgs_s__rosidl_typesupport_introspection_c
+[33.162s] Invoked command in '/root/exp_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/aruco_opencv_msgs -- -j14 -l14
+[33.162s] Invoking command in '/root/exp_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/aruco_opencv_msgs
+[33.192s] -- Install configuration: ""
+[33.193s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs
+[33.194s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.json
+[33.195s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.json
+[33.195s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.json
+[33.196s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[33.197s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[33.197s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[33.198s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c
+[33.198s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.h
+[33.199s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c
+[33.199s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c
+[33.199s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.c
+[33.199s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__description.c
+[33.200s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.h
+[33.200s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__description.c
+[33.200s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.c
+[33.200s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.c
+[33.201s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h
+[33.201s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__description.c
+[33.202s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h
+[33.202s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.h
+[33.202s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h
+[33.202s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h
+[33.202s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.h
+[33.202s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.h
+[33.203s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.h
+[33.203s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.h
+[33.203s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.h
+[33.203s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.203s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh
+[33.206s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv
+[33.206s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so
+[33.215s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so" to ""
+[33.216s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[33.216s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[33.216s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[33.216s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h
+[33.216s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h
+[33.216s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h
+[33.217s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.217s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so
+[33.217s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[33.217s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[33.217s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[33.217s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[33.217s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h
+[33.217s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c
+[33.217s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c
+[33.218s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h
+[33.218s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h
+[33.218s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.c
+[33.218s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.218s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so
+[33.218s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so" to ""
+[33.218s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so
+[33.219s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so" to ""
+[33.219s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[33.219s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[33.219s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.hpp
+[33.220s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp
+[33.221s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp
+[33.221s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp
+[33.221s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp
+[33.221s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.hpp
+[33.221s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.hpp
+[33.222s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.hpp
+[33.222s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.hpp
+[33.222s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[33.222s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[33.225s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[33.225s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.225s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[33.226s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[33.232s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[33.232s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/dds_fastrtps
+[33.232s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[33.232s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[33.233s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.233s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[33.233s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[33.233s] -- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[33.234s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp
+[33.234s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp
+[33.234s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[33.238s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp
+[33.239s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp
+[33.240s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp
+[33.240s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so
+[33.240s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[33.240s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so
+[33.240s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so" to ""
+[33.240s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/dependency_links.txt
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/PKG-INFO
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/SOURCES.txt
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/top_level.txt
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.241s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/__init__.py
+[33.242s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg
+[33.293s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_board_pose.py
+[33.293s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c
+[33.294s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c
+[33.295s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c
+[33.295s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py
+[33.295s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_marker_pose.py
+[33.295s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/__init__.py
+[33.296s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[33.392s] Listing '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs'...
+[33.393s] Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/__init__.py'...
+[33.393s] Listing '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg'...
+[33.393s] Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/__init__.py'...
+[33.393s] Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py'...
+[33.394s] Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_board_pose.py'...
+[33.394s] Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_marker_pose.py'...
+[33.410s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so
+[33.415s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[33.415s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so
+[33.415s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[33.415s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so
+[33.416s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so" to ""
+[33.416s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so
+[33.416s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so" to ""
+[33.416s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl
+[33.416s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl
+[33.416s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl
+[33.417s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg
+[33.417s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg
+[33.417s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg
+[33.417s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs
+[33.423s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs
+[33.431s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh
+[33.432s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv
+[33.432s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh
+[33.432s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv
+[33.432s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash
+[33.432s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh
+[33.432s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport.cmake
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[33.433s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake
+[33.434s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[33.439s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cppExport.cmake
+[33.441s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[33.441s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[33.446s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[33.446s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[33.446s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport-noconfig.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake
+[33.447s] -- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml
+[33.455s] Invoked command in '/root/exp_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/aruco_opencv_msgs

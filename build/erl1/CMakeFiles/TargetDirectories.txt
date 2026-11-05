@@ -1,0 +1,10 @@
+/root/exp_ws/build/erl1/CMakeFiles/uninstall.dir
+/root/exp_ws/build/erl1/CMakeFiles/erl1_uninstall.dir
+/root/exp_ws/build/erl1/CMakeFiles/marker_image_transport.dir
+/root/exp_ws/build/erl1/CMakeFiles/test.dir
+/root/exp_ws/build/erl1/CMakeFiles/edit_cache.dir
+/root/exp_ws/build/erl1/CMakeFiles/rebuild_cache.dir
+/root/exp_ws/build/erl1/CMakeFiles/list_install_components.dir
+/root/exp_ws/build/erl1/CMakeFiles/install.dir
+/root/exp_ws/build/erl1/CMakeFiles/install/local.dir
+/root/exp_ws/build/erl1/CMakeFiles/install/strip.dir

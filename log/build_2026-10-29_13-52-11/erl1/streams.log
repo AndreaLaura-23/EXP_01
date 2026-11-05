@@ -1,0 +1,35 @@
+[0.024s] Invoking command in '/root/exp_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/erl1 -- -j14 -l14
+[0.085s] Invoked command in '/root/exp_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/erl1 -- -j14 -l14
+[0.098s] Invoking command in '/root/exp_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/erl1
+[0.111s] -- Install configuration: ""
+[0.111s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch
+[0.112s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/rviz.launch.py
+[0.113s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/spawn_assignment.launch.py
+[0.114s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/world.launch.py
+[0.115s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/spawn.launch.py
+[0.115s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/worlds
+[0.116s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/worlds/assignment.sdf
+[0.117s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/worlds/my_world.sdf
+[0.118s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/urdf
+[0.118s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/urdf/my_robot.urdf
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/urdf/my_robot.gazebo
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/rviz
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/rviz/urdf.rviz
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/config
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/config/ekf.yaml
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/ament_index/resource_index/package_run_dependencies/erl1
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/ament_index/resource_index/parent_prefix_path/erl1
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/path.sh
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/path.dsv
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.bash
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.sh
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.zsh
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.dsv
+[0.120s] -- Installing: /root/exp_ws/install/erl1/share/erl1/package.dsv
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/ament_index/resource_index/packages/erl1
+[0.120s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/cmake/erl1Config.cmake
+[0.121s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/cmake/erl1Config-version.cmake
+[0.121s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/package.xml
+[0.121s] Invoked command in '/root/exp_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/erl1

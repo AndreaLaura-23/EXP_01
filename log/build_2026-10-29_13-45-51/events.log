@@ -1,0 +1,1045 @@
+[0.000000] (-) TimerEvent: {}
+[0.000769] (aruco_opencv_msgs) JobQueued: {'identifier': 'aruco_opencv_msgs', 'dependencies': OrderedDict()}
+[0.000871] (erl1) JobQueued: {'identifier': 'erl1', 'dependencies': OrderedDict()}
+[0.001009] (aruco_opencv) JobQueued: {'identifier': 'aruco_opencv', 'dependencies': OrderedDict({'aruco_opencv_msgs': '/root/exp_ws/install/aruco_opencv_msgs'})}
+[0.001374] (aruco_opencv_msgs) JobStarted: {'identifier': 'aruco_opencv_msgs'}
+[0.015395] (erl1) JobStarted: {'identifier': 'erl1'}
+[0.030364] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'cmake'}
+[0.035841] (aruco_opencv_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs', '-DCMAKE_INSTALL_PREFIX=/root/exp_ws/install/aruco_opencv_msgs'], 'cwd': '/root/exp_ws/build/aruco_opencv_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/aruco_opencv_msgs', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[0.042022] (erl1) JobProgress: {'identifier': 'erl1', 'progress': 'cmake'}
+[0.044662] (erl1) Command: {'cmd': ['/usr/bin/cmake', '/root/exp_ws/src/erl1', '-DCMAKE_INSTALL_PREFIX=/root/exp_ws/install/erl1'], 'cwd': '/root/exp_ws/build/erl1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/erl1', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[0.097449] (-) TimerEvent: {}
+[0.198363] (-) TimerEvent: {}
+[0.251044] (aruco_opencv_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.251978] (erl1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.298510] (-) TimerEvent: {}
+[0.403938] (-) TimerEvent: {}
+[0.414927] (aruco_opencv_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.436703] (erl1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.464856] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.488810] (erl1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.504235] (-) TimerEvent: {}
+[0.604801] (-) TimerEvent: {}
+[0.705488] (-) TimerEvent: {}
+[0.757646] (erl1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.762162] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.776735] (erl1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.778208] (erl1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.780728] (erl1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.781092] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.782512] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.783043] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.803652] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.807832] (-) TimerEvent: {}
+[0.810430] (erl1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.909274] (-) TimerEvent: {}
+[1.010060] (-) TimerEvent: {}
+[1.110705] (-) TimerEvent: {}
+[1.134167] (erl1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.138871] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.158220] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.159656] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.160068] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.162982] (erl1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.163186] (erl1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.163284] (erl1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.211238] (-) TimerEvent: {}
+[1.214336] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.218803] (erl1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.311452] (-) TimerEvent: {}
+[1.412749] (-) TimerEvent: {}
+[1.513303] (-) TimerEvent: {}
+[1.614643] (-) TimerEvent: {}
+[1.643969] (erl1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.650415] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.714800] (-) TimerEvent: {}
+[1.816224] (-) TimerEvent: {}
+[1.916750] (-) TimerEvent: {}
+[2.018809] (-) TimerEvent: {}
+[2.084558] (erl1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.107220] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.120210] (-) TimerEvent: {}
+[2.160678] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.220346] (-) TimerEvent: {}
+[2.321455] (-) TimerEvent: {}
+[2.399153] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.421846] (-) TimerEvent: {}
+[2.523054] (-) TimerEvent: {}
+[2.557201] (erl1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.557527] (erl1) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.563689] (erl1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.567306] (erl1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.584050] (erl1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.599574] (erl1) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.608011] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.615172] (erl1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.623067] (erl1) StdoutLine: {'line': b'-- Build files have been written to: /root/exp_ws/build/erl1\n'}
+[2.623644] (-) TimerEvent: {}
+[2.624252] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.634304] (erl1) CommandEnded: {'returncode': 0}
+[2.635284] (erl1) JobProgress: {'identifier': 'erl1', 'progress': 'build'}
+[2.635330] (erl1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/exp_ws/build/erl1', '--', '-j14', '-l14'], 'cwd': '/root/exp_ws/build/erl1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/erl1', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[2.722221] (erl1) CommandEnded: {'returncode': 0}
+[2.723685] (-) TimerEvent: {}
+[2.723921] (erl1) JobProgress: {'identifier': 'erl1', 'progress': 'install'}
+[2.742027] (erl1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/exp_ws/build/erl1'], 'cwd': '/root/exp_ws/build/erl1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/erl1', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[2.743483] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.758882] (erl1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.760092] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/launch\n'}
+[2.761023] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/launch/rviz.launch.py\n'}
+[2.761327] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/launch/spawn_assignment.launch.py\n'}
+[2.762188] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/launch/world.launch.py\n'}
+[2.762712] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/launch/spawn.launch.py\n'}
+[2.763534] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/worlds\n'}
+[2.764915] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/worlds/assignment.sdf\n'}
+[2.765441] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/worlds/my_world.sdf\n'}
+[2.765821] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/urdf\n'}
+[2.765965] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/urdf/my_robot.urdf\n'}
+[2.766057] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/urdf/my_robot.gazebo\n'}
+[2.766138] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/rviz\n'}
+[2.769976] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/rviz/urdf.rviz\n'}
+[2.775652] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/config\n'}
+[2.775959] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/config/ekf.yaml\n'}
+[2.776152] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/ament_index/resource_index/package_run_dependencies/erl1\n'}
+[2.776253] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/ament_index/resource_index/parent_prefix_path/erl1\n'}
+[2.776365] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/environment/ament_prefix_path.sh\n'}
+[2.776669] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/environment/ament_prefix_path.dsv\n'}
+[2.776776] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/environment/path.sh\n'}
+[2.776858] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/environment/path.dsv\n'}
+[2.776934] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/local_setup.bash\n'}
+[2.777538] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/local_setup.sh\n'}
+[2.777713] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/local_setup.zsh\n'}
+[2.777893] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/local_setup.dsv\n'}
+[2.778097] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/package.dsv\n'}
+[2.778270] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/ament_index/resource_index/packages/erl1\n'}
+[2.778427] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/cmake/erl1Config.cmake\n'}
+[2.786522] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/cmake/erl1Config-version.cmake\n'}
+[2.786826] (erl1) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/erl1/share/erl1/package.xml\n'}
+[2.796107] (erl1) CommandEnded: {'returncode': 0}
+[2.824467] (-) TimerEvent: {}
+[2.848237] (erl1) JobEnded: {'identifier': 'erl1', 'rc': 0}
+[2.926163] (-) TimerEvent: {}
+[3.027866] (-) TimerEvent: {}
+[3.128402] (-) TimerEvent: {}
+[3.229370] (-) TimerEvent: {}
+[3.331012] (-) TimerEvent: {}
+[3.431501] (-) TimerEvent: {}
+[3.532142] (-) TimerEvent: {}
+[3.633250] (-) TimerEvent: {}
+[3.734906] (-) TimerEvent: {}
+[3.846485] (-) TimerEvent: {}
+[3.947305] (-) TimerEvent: {}
+[4.047878] (-) TimerEvent: {}
+[4.148566] (-) TimerEvent: {}
+[4.249161] (-) TimerEvent: {}
+[4.281883] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[4.349956] (-) TimerEvent: {}
+[4.450760] (-) TimerEvent: {}
+[4.552101] (-) TimerEvent: {}
+[4.653248] (-) TimerEvent: {}
+[4.753895] (-) TimerEvent: {}
+[4.854615] (-) TimerEvent: {}
+[4.955185] (-) TimerEvent: {}
+[5.055893] (-) TimerEvent: {}
+[5.157910] (-) TimerEvent: {}
+[5.258980] (-) TimerEvent: {}
+[5.361441] (-) TimerEvent: {}
+[5.462224] (-) TimerEvent: {}
+[5.530178] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.562483] (-) TimerEvent: {}
+[5.663211] (-) TimerEvent: {}
+[5.763693] (-) TimerEvent: {}
+[5.864134] (-) TimerEvent: {}
+[5.965381] (-) TimerEvent: {}
+[6.066920] (-) TimerEvent: {}
+[6.168222] (-) TimerEvent: {}
+[6.278561] (-) TimerEvent: {}
+[6.379142] (-) TimerEvent: {}
+[6.479868] (-) TimerEvent: {}
+[6.580353] (-) TimerEvent: {}
+[6.681083] (-) TimerEvent: {}
+[6.782851] (-) TimerEvent: {}
+[6.883602] (-) TimerEvent: {}
+[6.984175] (-) TimerEvent: {}
+[7.084858] (-) TimerEvent: {}
+[7.188669] (-) TimerEvent: {}
+[7.245965] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.274390] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[7.288987] (-) TimerEvent: {}
+[7.389946] (-) TimerEvent: {}
+[7.490520] (-) TimerEvent: {}
+[7.591427] (-) TimerEvent: {}
+[7.635948] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[7.692770] (-) TimerEvent: {}
+[7.793394] (-) TimerEvent: {}
+[7.893935] (-) TimerEvent: {}
+[7.994500] (-) TimerEvent: {}
+[8.095173] (-) TimerEvent: {}
+[8.196610] (-) TimerEvent: {}
+[8.297165] (-) TimerEvent: {}
+[8.397657] (-) TimerEvent: {}
+[8.499422] (-) TimerEvent: {}
+[8.600528] (-) TimerEvent: {}
+[8.704357] (-) TimerEvent: {}
+[8.841798] (-) TimerEvent: {}
+[8.950342] (-) TimerEvent: {}
+[8.987072] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[9.050564] (-) TimerEvent: {}
+[9.151128] (-) TimerEvent: {}
+[9.164342] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[9.209449] (aruco_opencv_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.225409] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Configuring done (9.1s)\n'}
+[9.251322] (-) TimerEvent: {}
+[9.351774] (-) TimerEvent: {}
+[9.414831] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[9.451955] (-) TimerEvent: {}
+[9.452999] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/exp_ws/build/aruco_opencv_msgs\n'}
+[9.474504] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[9.475865] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'build'}
+[9.477120] (aruco_opencv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/exp_ws/build/aruco_opencv_msgs', '--', '-j14', '-l14'], 'cwd': '/root/exp_ws/build/aruco_opencv_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/aruco_opencv_msgs', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[9.552844] (-) TimerEvent: {}
+[9.627173] (aruco_opencv_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.654888] (-) TimerEvent: {}
+[9.755358] (-) TimerEvent: {}
+[9.856476] (-) TimerEvent: {}
+[9.957222] (-) TimerEvent: {}
+[10.057919] (-) TimerEvent: {}
+[10.152275] (aruco_opencv_msgs) StdoutLine: {'line': b'[  1%] Built target aruco_opencv_msgs__rosidl_generator_type_description\n'}
+[10.158122] (-) TimerEvent: {}
+[10.218385] (aruco_opencv_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_aruco_opencv_msgs\n'}
+[10.245434] (aruco_opencv_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.258702] (-) TimerEvent: {}
+[10.359427] (-) TimerEvent: {}
+[10.459931] (-) TimerEvent: {}
+[10.560437] (-) TimerEvent: {}
+[10.661745] (-) TimerEvent: {}
+[10.762666] (-) TimerEvent: {}
+[10.863258] (-) TimerEvent: {}
+[10.963896] (-) TimerEvent: {}
+[11.066439] (-) TimerEvent: {}
+[11.167047] (-) TimerEvent: {}
+[11.269553] (-) TimerEvent: {}
+[11.370183] (-) TimerEvent: {}
+[11.383282] (aruco_opencv_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__description.c.o\x1b[0m\n'}
+[11.470676] (-) TimerEvent: {}
+[11.482773] (aruco_opencv_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c.o\x1b[0m\n'}
+[11.571819] (-) TimerEvent: {}
+[11.582922] (aruco_opencv_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__functions.c.o\x1b[0m\n'}
+[11.673692] (-) TimerEvent: {}
+[11.697566] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__description.c.o\x1b[0m\n'}
+[11.774093] (-) TimerEvent: {}
+[11.787147] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__type_support.c.o\x1b[0m\n'}
+[11.871855] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__functions.c.o\x1b[0m\n'}
+[11.874447] (-) TimerEvent: {}
+[11.952036] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__description.c.o\x1b[0m\n'}
+[11.975947] (-) TimerEvent: {}
+[12.054603] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c.o\x1b[0m\n'}
+[12.076223] (-) TimerEvent: {}
+[12.116733] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c.o\x1b[0m\n'}
+[12.176634] (-) TimerEvent: {}
+[12.244053] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaruco_opencv_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[12.276952] (-) TimerEvent: {}
+[12.342453] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 22%] Built target aruco_opencv_msgs__rosidl_generator_c\n'}
+[12.380693] (-) TimerEvent: {}
+[12.482022] (-) TimerEvent: {}
+[12.582492] (-) TimerEvent: {}
+[12.683170] (-) TimerEvent: {}
+[12.783752] (-) TimerEvent: {}
+[12.793185] (aruco_opencv_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[12.797956] (aruco_opencv_msgs) StdoutLine: {'line': b'creating aruco_opencv_msgs.egg-info\n'}
+[12.824632] (aruco_opencv_msgs) StdoutLine: {'line': b'writing aruco_opencv_msgs.egg-info/PKG-INFO\n'}
+[12.825467] (aruco_opencv_msgs) StdoutLine: {'line': b'writing dependency_links to aruco_opencv_msgs.egg-info/dependency_links.txt\n'}
+[12.826049] (aruco_opencv_msgs) StdoutLine: {'line': b'writing top-level names to aruco_opencv_msgs.egg-info/top_level.txt\n'}
+[12.826195] (aruco_opencv_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'\n"}
+[12.883969] (-) TimerEvent: {}
+[12.946764] (aruco_opencv_msgs) StdoutLine: {'line': b"reading manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'\n"}
+[12.947590] (aruco_opencv_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'\n"}
+[12.984601] (-) TimerEvent: {}
+[13.031955] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_aruco_opencv_msgs_egg\n'}
+[13.054740] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.084831] (-) TimerEvent: {}
+[13.185347] (-) TimerEvent: {}
+[13.285918] (-) TimerEvent: {}
+[13.386806] (-) TimerEvent: {}
+[13.487344] (-) TimerEvent: {}
+[13.530395] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[13.587523] (-) TimerEvent: {}
+[13.654480] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[13.687719] (-) TimerEvent: {}
+[13.750431] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/board_pose__type_support.cpp.o\x1b[0m\n'}
+[13.788214] (-) TimerEvent: {}
+[13.867770] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.894408] (-) TimerEvent: {}
+[13.966606] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 31%] Built target aruco_opencv_msgs__rosidl_typesupport_c\n'}
+[13.994041] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.994517] (-) TimerEvent: {}
+[14.095431] (-) TimerEvent: {}
+[14.196035] (-) TimerEvent: {}
+[14.296888] (-) TimerEvent: {}
+[14.398606] (-) TimerEvent: {}
+[14.501685] (-) TimerEvent: {}
+[14.602837] (-) TimerEvent: {}
+[14.640429] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c.o\x1b[0m\n'}
+[14.702977] (-) TimerEvent: {}
+[14.744742] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c.o\x1b[0m\n'}
+[14.806067] (-) TimerEvent: {}
+[14.831670] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/board_pose__type_support.c.o\x1b[0m\n'}
+[14.908729] (-) TimerEvent: {}
+[14.918453] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.009759] (-) TimerEvent: {}
+[15.013363] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 40%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c\n'}
+[15.044563] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.109941] (-) TimerEvent: {}
+[15.210615] (-) TimerEvent: {}
+[15.311494] (-) TimerEvent: {}
+[15.412026] (-) TimerEvent: {}
+[15.512471] (-) TimerEvent: {}
+[15.613400] (-) TimerEvent: {}
+[15.678887] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support_c.cpp.o\x1b[0m\n'}
+[15.713586] (-) TimerEvent: {}
+[15.814218] (-) TimerEvent: {}
+[15.915074] (-) TimerEvent: {}
+[16.016149] (-) TimerEvent: {}
+[16.117434] (-) TimerEvent: {}
+[16.218018] (-) TimerEvent: {}
+[16.322786] (-) TimerEvent: {}
+[16.423659] (-) TimerEvent: {}
+[16.524333] (-) TimerEvent: {}
+[16.625090] (-) TimerEvent: {}
+[16.666850] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support_c.cpp.o\x1b[0m\n'}
+[16.728613] (-) TimerEvent: {}
+[16.829420] (-) TimerEvent: {}
+[16.929980] (-) TimerEvent: {}
+[17.030672] (-) TimerEvent: {}
+[17.132042] (-) TimerEvent: {}
+[17.232987] (-) TimerEvent: {}
+[17.335613] (-) TimerEvent: {}
+[17.436422] (-) TimerEvent: {}
+[17.537125] (-) TimerEvent: {}
+[17.589332] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/board_pose__type_support_c.cpp.o\x1b[0m\n'}
+[17.637602] (-) TimerEvent: {}
+[17.739486] (-) TimerEvent: {}
+[17.840197] (-) TimerEvent: {}
+[17.941032] (-) TimerEvent: {}
+[18.041570] (-) TimerEvent: {}
+[18.142000] (-) TimerEvent: {}
+[18.244588] (-) TimerEvent: {}
+[18.345814] (-) TimerEvent: {}
+[18.430854] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.446918] (-) TimerEvent: {}
+[18.547503] (-) TimerEvent: {}
+[18.618974] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 50%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.648147] (-) TimerEvent: {}
+[18.695115] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.748434] (-) TimerEvent: {}
+[18.849710] (-) TimerEvent: {}
+[18.950871] (-) TimerEvent: {}
+[19.053789] (-) TimerEvent: {}
+[19.154835] (-) TimerEvent: {}
+[19.255454] (-) TimerEvent: {}
+[19.356998] (-) TimerEvent: {}
+[19.458547] (-) TimerEvent: {}
+[19.526311] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 51%] Built target aruco_opencv_msgs__cpp\n'}
+[19.552989] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.558777] (-) TimerEvent: {}
+[19.660250] (-) TimerEvent: {}
+[19.762087] (-) TimerEvent: {}
+[19.862565] (-) TimerEvent: {}
+[19.965417] (-) TimerEvent: {}
+[20.066748] (-) TimerEvent: {}
+[20.102146] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[20.166927] (-) TimerEvent: {}
+[20.267521] (-) TimerEvent: {}
+[20.368611] (-) TimerEvent: {}
+[20.469469] (-) TimerEvent: {}
+[20.570635] (-) TimerEvent: {}
+[20.673764] (-) TimerEvent: {}
+[20.701759] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[20.775149] (-) TimerEvent: {}
+[20.875948] (-) TimerEvent: {}
+[20.976437] (-) TimerEvent: {}
+[21.076898] (-) TimerEvent: {}
+[21.177955] (-) TimerEvent: {}
+[21.278700] (-) TimerEvent: {}
+[21.297767] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/board_pose__type_support.cpp.o\x1b[0m\n'}
+[21.379709] (-) TimerEvent: {}
+[21.483768] (-) TimerEvent: {}
+[21.584259] (-) TimerEvent: {}
+[21.684738] (-) TimerEvent: {}
+[21.786375] (-) TimerEvent: {}
+[21.886922] (-) TimerEvent: {}
+[21.988666] (-) TimerEvent: {}
+[22.033150] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.088053] (-) TimerEvent: {}
+[22.144284] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 61%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp\n'}
+[22.164372] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[22.188453] (-) TimerEvent: {}
+[22.288969] (-) TimerEvent: {}
+[22.389489] (-) TimerEvent: {}
+[22.490080] (-) TimerEvent: {}
+[22.590882] (-) TimerEvent: {}
+[22.691538] (-) TimerEvent: {}
+[22.734550] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[22.791838] (-) TimerEvent: {}
+[22.893609] (-) TimerEvent: {}
+[22.994430] (-) TimerEvent: {}
+[23.095010] (-) TimerEvent: {}
+[23.195756] (-) TimerEvent: {}
+[23.297676] (-) TimerEvent: {}
+[23.398174] (-) TimerEvent: {}
+[23.499145] (-) TimerEvent: {}
+[23.600270] (-) TimerEvent: {}
+[23.667862] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[23.700460] (-) TimerEvent: {}
+[23.800965] (-) TimerEvent: {}
+[23.902310] (-) TimerEvent: {}
+[24.002821] (-) TimerEvent: {}
+[24.103238] (-) TimerEvent: {}
+[24.203725] (-) TimerEvent: {}
+[24.304594] (-) TimerEvent: {}
+[24.405078] (-) TimerEvent: {}
+[24.476832] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp.o\x1b[0m\n'}
+[24.512641] (-) TimerEvent: {}
+[24.613177] (-) TimerEvent: {}
+[24.713681] (-) TimerEvent: {}
+[24.814149] (-) TimerEvent: {}
+[24.914634] (-) TimerEvent: {}
+[25.015544] (-) TimerEvent: {}
+[25.116039] (-) TimerEvent: {}
+[25.216546] (-) TimerEvent: {}
+[25.219463] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.316743] (-) TimerEvent: {}
+[25.393610] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 70%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp\n'}
+[25.416883] (-) TimerEvent: {}
+[25.430367] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.517079] (-) TimerEvent: {}
+[25.617984] (-) TimerEvent: {}
+[25.718461] (-) TimerEvent: {}
+[25.819202] (-) TimerEvent: {}
+[25.919706] (-) TimerEvent: {}
+[26.020365] (-) TimerEvent: {}
+[26.121750] (-) TimerEvent: {}
+[26.122758] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[26.224333] (-) TimerEvent: {}
+[26.325418] (-) TimerEvent: {}
+[26.426893] (-) TimerEvent: {}
+[26.529679] (-) TimerEvent: {}
+[26.630799] (-) TimerEvent: {}
+[26.732118] (-) TimerEvent: {}
+[26.833048] (-) TimerEvent: {}
+[26.933599] (-) TimerEvent: {}
+[27.034449] (-) TimerEvent: {}
+[27.135774] (-) TimerEvent: {}
+[27.236898] (-) TimerEvent: {}
+[27.338968] (-) TimerEvent: {}
+[27.339492] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[27.440895] (-) TimerEvent: {}
+[27.545132] (-) TimerEvent: {}
+[27.645841] (-) TimerEvent: {}
+[27.746361] (-) TimerEvent: {}
+[27.847210] (-) TimerEvent: {}
+[27.948273] (-) TimerEvent: {}
+[28.048843] (-) TimerEvent: {}
+[28.152637] (-) TimerEvent: {}
+[28.253137] (-) TimerEvent: {}
+[28.354070] (-) TimerEvent: {}
+[28.411628] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/board_pose__type_support.cpp.o\x1b[0m\n'}
+[28.454245] (-) TimerEvent: {}
+[28.556608] (-) TimerEvent: {}
+[28.658600] (-) TimerEvent: {}
+[28.759985] (-) TimerEvent: {}
+[28.861595] (-) TimerEvent: {}
+[28.966747] (-) TimerEvent: {}
+[29.067216] (-) TimerEvent: {}
+[29.167830] (-) TimerEvent: {}
+[29.270483] (-) TimerEvent: {}
+[29.371629] (-) TimerEvent: {}
+[29.472190] (-) TimerEvent: {}
+[29.572668] (-) TimerEvent: {}
+[29.584341] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[29.674303] (-) TimerEvent: {}
+[29.778365] (-) TimerEvent: {}
+[29.804396] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 79%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[29.859681] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 79%] Built target aruco_opencv_msgs\n'}
+[29.876679] (-) TimerEvent: {}
+[29.915711] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[29.980003] (-) TimerEvent: {}
+[30.080476] (-) TimerEvent: {}
+[30.181128] (-) TimerEvent: {}
+[30.283030] (-) TimerEvent: {}
+[30.383979] (-) TimerEvent: {}
+[30.484399] (-) TimerEvent: {}
+[30.587517] (-) TimerEvent: {}
+[30.688107] (-) TimerEvent: {}
+[30.788923] (-) TimerEvent: {}
+[30.793408] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 81%] Built target aruco_opencv_msgs__py\n'}
+[30.850628] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_aruco_detection_s.c.o\x1b[0m\n'}
+[30.889497] (-) TimerEvent: {}
+[30.993481] (-) TimerEvent: {}
+[31.095877] (-) TimerEvent: {}
+[31.165599] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_marker_pose_s.c.o\x1b[0m\n'}
+[31.196597] (-) TimerEvent: {}
+[31.298646] (-) TimerEvent: {}
+[31.399524] (-) TimerEvent: {}
+[31.412875] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_board_pose_s.c.o\x1b[0m\n'}
+[31.499734] (-) TimerEvent: {}
+[31.600329] (-) TimerEvent: {}
+[31.700820] (-) TimerEvent: {}
+[31.746691] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libaruco_opencv_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[31.801528] (-) TimerEvent: {}
+[31.859999] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 88%] Built target aruco_opencv_msgs__rosidl_generator_py\n'}
+[31.903927] (-) TimerEvent: {}
+[31.929031] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.004233] (-) TimerEvent: {}
+[32.105390] (-) TimerEvent: {}
+[32.178314] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[32.205783] (-) TimerEvent: {}
+[32.267049] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 92%] Built target aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[32.306185] (-) TimerEvent: {}
+[32.324210] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[32.406475] (-) TimerEvent: {}
+[32.507156] (-) TimerEvent: {}
+[32.579665] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[32.609153] (-) TimerEvent: {}
+[32.651091] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 96%] Built target aruco_opencv_msgs_s__rosidl_typesupport_c\n'}
+[32.695321] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.709362] (-) TimerEvent: {}
+[32.809949] (-) TimerEvent: {}
+[32.910420] (-) TimerEvent: {}
+[32.968658] (aruco_opencv_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[33.010590] (-) TimerEvent: {}
+[33.042825] (aruco_opencv_msgs) StdoutLine: {'line': b'[100%] Built target aruco_opencv_msgs_s__rosidl_typesupport_introspection_c\n'}
+[33.111005] (-) TimerEvent: {}
+[33.162911] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[33.163722] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'install'}
+[33.163825] (aruco_opencv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/exp_ws/build/aruco_opencv_msgs'], 'cwd': '/root/exp_ws/build/aruco_opencv_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/aruco_opencv_msgs', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[33.193236] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.194493] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs\n'}
+[33.195876] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.json\n'}
+[33.196660] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.json\n'}
+[33.196989] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.json\n'}
+[33.197311] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs\n'}
+[33.198121] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg\n'}
+[33.198688] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail\n'}
+[33.199031] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c\n'}
+[33.199772] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.h\n'}
+[33.200182] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c\n'}
+[33.200363] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c\n'}
+[33.200733] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.c\n'}
+[33.200943] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__description.c\n'}
+[33.201266] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.h\n'}
+[33.201636] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__description.c\n'}
+[33.201825] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.c\n'}
+[33.202048] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.c\n'}
+[33.202268] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h\n'}
+[33.202493] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__description.c\n'}
+[33.202955] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h\n'}
+[33.203376] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.h\n'}
+[33.203596] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h\n'}
+[33.203742] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h\n'}
+[33.203904] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.h\n'}
+[33.204058] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.h\n'}
+[33.204281] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.h\n'}
+[33.204358] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.h\n'}
+[33.204430] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.h\n'}
+[33.204615] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.204700] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh\n'}
+[33.207311] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv\n'}
+[33.207543] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so\n'}
+[33.211280] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so" to ""\n'}
+[33.217011] (-) TimerEvent: {}
+[33.217207] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs\n'}
+[33.217470] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg\n'}
+[33.217707] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail\n'}
+[33.217822] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[33.217923] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[33.218087] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[33.218192] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.218370] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[33.218501] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.218631] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs\n'}
+[33.218733] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg\n'}
+[33.218824] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail\n'}
+[33.218913] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h\n'}
+[33.219009] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c\n'}
+[33.219134] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c\n'}
+[33.219255] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h\n'}
+[33.219409] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h\n'}
+[33.219608] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.c\n'}
+[33.219744] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.219843] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so\n'}
+[33.220028] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.220154] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so\n'}
+[33.220313] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so" to ""\n'}
+[33.220421] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs\n'}
+[33.220988] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg\n'}
+[33.221203] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail\n'}
+[33.221421] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.hpp\n'}
+[33.221547] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp\n'}
+[33.221657] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp\n'}
+[33.221744] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp\n'}
+[33.221854] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp\n'}
+[33.222033] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp\n'}
+[33.222129] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.hpp\n'}
+[33.222212] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp\n'}
+[33.222299] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp\n'}
+[33.222387] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp\n'}
+[33.222638] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp\n'}
+[33.222929] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.hpp\n'}
+[33.223143] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.hpp\n'}
+[33.223249] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.hpp\n'}
+[33.223343] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.hpp\n'}
+[33.223435] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[33.223521] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs\n'}
+[33.226190] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg\n'}
+[33.226821] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.227072] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail\n'}
+[33.227265] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.233332] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.233774] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/dds_fastrtps\n'}
+[33.233900] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.233994] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.234350] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.234558] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs\n'}
+[33.235077] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg\n'}
+[33.235206] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail\n'}
+[33.235300] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.235560] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp\n'}
+[33.236085] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.236322] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp\n'}
+[33.240429] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.240920] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp\n'}
+[33.241673] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[33.241832] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.241911] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so\n'}
+[33.242018] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[33.242140] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh\n'}
+[33.242282] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv\n'}
+[33.242391] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info\n'}
+[33.242468] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[33.242539] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/PKG-INFO\n'}
+[33.242638] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[33.242742] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs-7.0.0-py3.12.egg-info/top_level.txt\n'}
+[33.242811] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs\n'}
+[33.242874] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[33.242934] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so\n'}
+[33.242999] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[33.243064] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[33.243128] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.243189] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/__init__.py\n'}
+[33.243252] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg\n'}
+[33.294513] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_board_pose.py\n'}
+[33.295049] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c\n'}
+[33.295771] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c\n'}
+[33.296227] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c\n'}
+[33.296544] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py\n'}
+[33.296728] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_marker_pose.py\n'}
+[33.297063] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/__init__.py\n'}
+[33.297286] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.320748] (-) TimerEvent: {}
+[33.393848] (aruco_opencv_msgs) StdoutLine: {'line': b"Listing '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs'...\n"}
+[33.394202] (aruco_opencv_msgs) StdoutLine: {'line': b"Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/__init__.py'...\n"}
+[33.394360] (aruco_opencv_msgs) StdoutLine: {'line': b"Listing '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg'...\n"}
+[33.394462] (aruco_opencv_msgs) StdoutLine: {'line': b"Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/__init__.py'...\n"}
+[33.394555] (aruco_opencv_msgs) StdoutLine: {'line': b"Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py'...\n"}
+[33.394780] (aruco_opencv_msgs) StdoutLine: {'line': b"Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_board_pose.py'...\n"}
+[33.395486] (aruco_opencv_msgs) StdoutLine: {'line': b"Compiling '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/msg/_marker_pose.py'...\n"}
+[33.410740] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[33.416404] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.416858] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[33.417015] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.417134] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so\n'}
+[33.417261] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[33.417764] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so\n'}
+[33.417923] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/exp_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so" to ""\n'}
+[33.418016] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl\n'}
+[33.418101] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl\n'}
+[33.418179] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl\n'}
+[33.418260] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg\n'}
+[33.418420] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg\n'}
+[33.418526] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg\n'}
+[33.418615] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs\n'}
+[33.424029] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs\n'}
+[33.424601] (-) TimerEvent: {}
+[33.432825] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh\n'}
+[33.433358] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv\n'}
+[33.433561] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh\n'}
+[33.433799] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv\n'}
+[33.433899] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash\n'}
+[33.433999] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh\n'}
+[33.434095] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh\n'}
+[33.434179] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv\n'}
+[33.434564] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv\n'}
+[33.434660] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs\n'}
+[33.434738] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport.cmake\n'}
+[33.434811] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[33.434882] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[33.434952] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[33.435021] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.435091] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[33.435162] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake\n'}
+[33.435300] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[33.440671] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cppExport.cmake\n'}
+[33.441291] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[33.442744] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[33.443411] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.448029] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[33.448194] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[33.448270] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[33.448382] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport.cmake\n'}
+[33.448514] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[33.448591] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[33.448653] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.448716] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.448778] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.448839] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.448896] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.448951] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.449006] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake\n'}
+[33.449075] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake\n'}
+[33.449144] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml\n'}
+[33.456768] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[33.525829] (-) TimerEvent: {}
+[33.549634] (aruco_opencv_msgs) JobEnded: {'identifier': 'aruco_opencv_msgs', 'rc': 0}
+[33.557125] (aruco_opencv) JobStarted: {'identifier': 'aruco_opencv'}
+[33.579661] (aruco_opencv) JobProgress: {'identifier': 'aruco_opencv', 'progress': 'cmake'}
+[33.582744] (aruco_opencv) Command: {'cmd': ['/usr/bin/cmake', '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv', '-DCMAKE_INSTALL_PREFIX=/root/exp_ws/install/aruco_opencv'], 'cwd': '/root/exp_ws/build/aruco_opencv', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/aruco_opencv', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/aruco_opencv_msgs:/root/exp_ws/install/erl1:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[33.626801] (-) TimerEvent: {}
+[33.727554] (-) TimerEvent: {}
+[33.749209] (aruco_opencv) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[33.831092] (-) TimerEvent: {}
+[33.934451] (-) TimerEvent: {}
+[33.990099] (aruco_opencv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[34.037888] (-) TimerEvent: {}
+[34.062590] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.138058] (-) TimerEvent: {}
+[34.239367] (-) TimerEvent: {}
+[34.339915] (-) TimerEvent: {}
+[34.390080] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.408153] (aruco_opencv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[34.408704] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[34.409286] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[34.434320] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[34.440994] (-) TimerEvent: {}
+[34.541766] (-) TimerEvent: {}
+[34.642644] (-) TimerEvent: {}
+[34.728947] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[34.742910] (-) TimerEvent: {}
+[34.759193] (aruco_opencv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[34.759682] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[34.760454] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[34.796345] (aruco_opencv) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[34.843082] (-) TimerEvent: {}
+[34.948900] (-) TimerEvent: {}
+[35.049430] (-) TimerEvent: {}
+[35.150393] (-) TimerEvent: {}
+[35.220407] (aruco_opencv) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[35.251159] (-) TimerEvent: {}
+[35.351886] (-) TimerEvent: {}
+[35.452546] (-) TimerEvent: {}
+[35.553184] (-) TimerEvent: {}
+[35.653878] (-) TimerEvent: {}
+[35.668668] (aruco_opencv) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[35.754072] (-) TimerEvent: {}
+[35.855242] (-) TimerEvent: {}
+[35.860477] (aruco_opencv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[35.924453] (aruco_opencv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[35.959479] (-) TimerEvent: {}
+[35.986142] (aruco_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[36.058409] (aruco_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[36.059607] (-) TimerEvent: {}
+[36.161344] (-) TimerEvent: {}
+[36.261978] (-) TimerEvent: {}
+[36.353184] (aruco_opencv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[36.362187] (-) TimerEvent: {}
+[36.368298] (aruco_opencv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[36.463069] (-) TimerEvent: {}
+[36.564073] (-) TimerEvent: {}
+[36.668636] (-) TimerEvent: {}
+[36.676710] (aruco_opencv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[36.724239] (aruco_opencv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[36.768842] (-) TimerEvent: {}
+[36.781680] (aruco_opencv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[36.869449] (-) TimerEvent: {}
+[36.969986] (-) TimerEvent: {}
+[37.034549] (aruco_opencv) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[37.070287] (-) TimerEvent: {}
+[37.162628] (aruco_opencv) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[37.170492] (-) TimerEvent: {}
+[37.259794] (aruco_opencv) StdoutLine: {'line': b'-- Found aruco_opencv_msgs: 7.0.0 (/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake)\n'}
+[37.271801] (-) TimerEvent: {}
+[37.373007] (-) TimerEvent: {}
+[37.419538] (aruco_opencv) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[37.473664] (-) TimerEvent: {}
+[37.532777] (aruco_opencv) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[37.573861] (-) TimerEvent: {}
+[37.674465] (-) TimerEvent: {}
+[37.775696] (-) TimerEvent: {}
+[37.821013] (aruco_opencv) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[37.876105] (-) TimerEvent: {}
+[37.908804] (aruco_opencv) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[37.915548] (aruco_opencv) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[37.916041] (aruco_opencv) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[37.938629] (aruco_opencv) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[37.980476] (-) TimerEvent: {}
+[37.986659] (aruco_opencv) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4.6.0") found components: aruco \n'}
+[38.033122] (aruco_opencv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[38.080811] (-) TimerEvent: {}
+[38.181256] (-) TimerEvent: {}
+[38.282081] (-) TimerEvent: {}
+[38.345346] (aruco_opencv) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[38.351364] (aruco_opencv) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[38.351940] (aruco_opencv) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[38.353695] (aruco_opencv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[38.358995] (aruco_opencv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[38.359725] (aruco_opencv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[38.361184] (aruco_opencv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[38.366848] (aruco_opencv) StdoutLine: {'line': b'-- Configuring done (4.8s)\n'}
+[38.382318] (-) TimerEvent: {}
+[38.442534] (aruco_opencv) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[38.464137] (aruco_opencv) StdoutLine: {'line': b'-- Build files have been written to: /root/exp_ws/build/aruco_opencv\n'}
+[38.482532] (-) TimerEvent: {}
+[38.499783] (aruco_opencv) CommandEnded: {'returncode': 0}
+[38.501183] (aruco_opencv) JobProgress: {'identifier': 'aruco_opencv', 'progress': 'build'}
+[38.502161] (aruco_opencv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/exp_ws/build/aruco_opencv', '--', '-j14', '-l14'], 'cwd': '/root/exp_ws/build/aruco_opencv', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/root/exp_ws/src/erl1/models', 'USER': 'ubuntu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ceec4b83cdb1', 'GIT_ASKPASS': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/exp_ws/install/aruco_opencv_msgs/lib:/root/ros2_ws2/install/my_robot_action_cpp/lib:/root/ros2_ws2/install/first_package_cpp/lib:/root/ros2_ws2/install/assignment1/lib:/root/ros2_ws2/install/action_tutorials_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '1.143.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f10d5f87-c7b6-460d-984d-1a6e34c4281d.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/node', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/root/exp_ws/install:/root/ros2_ws2/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c2df14b1-dad7-4404-87d9-4f5387ec0968.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e646868227c3e3a9e3f24277c8c7220be42c0be7/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X40","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':40', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-2ec07a3688.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/exp_ws/install/erl1:/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/fibonacci:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X40', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/exp_ws/build/aruco_opencv', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:/root/ros2_ws2/install/turtle_action_client/lib/python3.12/site-packages:/root/ros2_ws2/install/python_tf2_pkg/lib/python3.12/site-packages:/root/ros2_ws2/install/my_robot_action_cpp/lib/python3.12/site-packages:/root/ros2_ws2/install/fibonacci/lib/python3.12/site-packages:/root/ros2_ws2/install/assignment1/lib/python3.12/site-packages:/root/ros2_ws2/install/action_tutorials_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/exp_ws/install/aruco_opencv_msgs:/root/exp_ws/install/erl1:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[38.582720] (-) TimerEvent: {}
+[38.643894] (aruco_opencv) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o\x1b[0m\n'}
+[38.682871] (-) TimerEvent: {}
+[38.783434] (-) TimerEvent: {}
+[38.884123] (-) TimerEvent: {}
+[38.984708] (-) TimerEvent: {}
+[39.086055] (-) TimerEvent: {}
+[39.187303] (-) TimerEvent: {}
+[39.292939] (-) TimerEvent: {}
+[39.393685] (-) TimerEvent: {}
+[39.496803] (-) TimerEvent: {}
+[39.598398] (-) TimerEvent: {}
+[39.699116] (-) TimerEvent: {}
+[39.799683] (-) TimerEvent: {}
+[39.900883] (-) TimerEvent: {}
+[40.003180] (-) TimerEvent: {}
+[40.108221] (-) TimerEvent: {}
+[40.208868] (-) TimerEvent: {}
+[40.310084] (-) TimerEvent: {}
+[40.411301] (-) TimerEvent: {}
+[40.513371] (-) TimerEvent: {}
+[40.613929] (-) TimerEvent: {}
+[40.714550] (-) TimerEvent: {}
+[40.816046] (-) TimerEvent: {}
+[40.917457] (-) TimerEvent: {}
+[41.018063] (-) TimerEvent: {}
+[41.122938] (-) TimerEvent: {}
+[41.223512] (-) TimerEvent: {}
+[41.331089] (-) TimerEvent: {}
+[41.431772] (-) TimerEvent: {}
+[41.532303] (-) TimerEvent: {}
+[41.632875] (-) TimerEvent: {}
+[41.733487] (-) TimerEvent: {}
+[41.834504] (-) TimerEvent: {}
+[41.935897] (-) TimerEvent: {}
+[42.036415] (-) TimerEvent: {}
+[42.139617] (-) TimerEvent: {}
+[42.242933] (-) TimerEvent: {}
+[42.343572] (-) TimerEvent: {}
+[42.444281] (-) TimerEvent: {}
+[42.545632] (-) TimerEvent: {}
+[42.646327] (-) TimerEvent: {}
+[42.747723] (-) TimerEvent: {}
+[42.849703] (-) TimerEvent: {}
+[42.950268] (-) TimerEvent: {}
+[43.053493] (-) TimerEvent: {}
+[43.154319] (-) TimerEvent: {}
+[43.255912] (-) TimerEvent: {}
+[43.356776] (-) TimerEvent: {}
+[43.457793] (-) TimerEvent: {}
+[43.558706] (-) TimerEvent: {}
+[43.659391] (-) TimerEvent: {}
+[43.760621] (-) TimerEvent: {}
+[43.861516] (-) TimerEvent: {}
+[43.962332] (-) TimerEvent: {}
+[44.063322] (-) TimerEvent: {}
+[44.165915] (-) TimerEvent: {}
+[44.267045] (-) TimerEvent: {}
+[44.368674] (-) TimerEvent: {}
+[44.472950] (-) TimerEvent: {}
+[44.573657] (-) TimerEvent: {}
+[44.674551] (-) TimerEvent: {}
+[44.775892] (-) TimerEvent: {}
+[44.882372] (-) TimerEvent: {}
+[44.983939] (-) TimerEvent: {}
+[45.090666] (-) TimerEvent: {}
+[45.192353] (-) TimerEvent: {}
+[45.294810] (-) TimerEvent: {}
+[45.395722] (-) TimerEvent: {}
+[45.496595] (-) TimerEvent: {}
+[45.597414] (-) TimerEvent: {}
+[45.697955] (-) TimerEvent: {}
+[45.798697] (-) TimerEvent: {}
+[45.900441] (-) TimerEvent: {}
+[46.001740] (-) TimerEvent: {}
+[46.104583] (-) TimerEvent: {}
+[46.207379] (-) TimerEvent: {}
+[46.310302] (-) TimerEvent: {}
+[46.411955] (-) TimerEvent: {}
+[46.513117] (-) TimerEvent: {}
+[46.613898] (-) TimerEvent: {}
+[46.714867] (-) TimerEvent: {}
+[46.816587] (-) TimerEvent: {}
+[46.917200] (-) TimerEvent: {}
+[47.028968] (-) TimerEvent: {}
+[47.133131] (-) TimerEvent: {}
+[47.233665] (-) TimerEvent: {}
+[47.334224] (-) TimerEvent: {}
+[47.435807] (-) TimerEvent: {}
+[47.537982] (-) TimerEvent: {}
+[47.639933] (-) TimerEvent: {}
+[47.740632] (-) TimerEvent: {}
+[47.841187] (-) TimerEvent: {}
+[47.942644] (-) TimerEvent: {}
+[48.043710] (-) TimerEvent: {}
+[48.144208] (-) TimerEvent: {}
+[48.245815] (-) TimerEvent: {}
+[48.346304] (-) TimerEvent: {}
+[48.447302] (-) TimerEvent: {}
+[48.513740] (aruco_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/root/exp_ws/src/ros_aruco_opencv/aruco_opencv/src/aruco_tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn aruco_opencv::ArucoTracker::\x1b[01;32m\x1b[Kon_configure\x1b[m\x1b[K(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[48.514975] (aruco_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/root/exp_ws/src/ros_aruco_opencv/aruco_opencv/src/aruco_tracker.cpp:127:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Karuco_opencv::ArucoTracker\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[48.515194] (aruco_opencv) StderrLine: {'line': b'  127 |         image_transport::create_publisher(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, "~/debug", rclcpp::QoS(5)));\n'}
+[48.515299] (aruco_opencv) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[48.515399] (aruco_opencv) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[48.515487] (aruco_opencv) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[Karuco_opencv::ArucoTracker\x1b[m\x1b[K\n'}
+[48.520634] (aruco_opencv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/exp_ws/src/ros_aruco_opencv/aruco_opencv/src/aruco_tracker.cpp:41\x1b[m\x1b[K:\n'}
+[48.521097] (aruco_opencv) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kimage_transport::Publisher image_transport::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[48.521452] (aruco_opencv) StderrLine: {'line': b'   54 |   \x1b[01;36m\x1b[Krclcpp::Node * node\x1b[m\x1b[K,\n'}
+[48.521587] (aruco_opencv) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[48.547493] (-) TimerEvent: {}
+[48.648112] (-) TimerEvent: {}
+[48.748579] (-) TimerEvent: {}
+[48.851413] (-) TimerEvent: {}
+[48.951958] (-) TimerEvent: {}
+[49.057354] (-) TimerEvent: {}
+[49.158445] (-) TimerEvent: {}
+[49.259505] (-) TimerEvent: {}
+[49.360115] (-) TimerEvent: {}
+[49.461324] (-) TimerEvent: {}
+[49.561977] (-) TimerEvent: {}
+[49.662802] (-) TimerEvent: {}
+[49.763707] (-) TimerEvent: {}
+[49.864322] (-) TimerEvent: {}
+[49.964972] (-) TimerEvent: {}
+[50.065475] (-) TimerEvent: {}
+[50.166137] (-) TimerEvent: {}
+[50.266956] (-) TimerEvent: {}
+[50.367444] (-) TimerEvent: {}
+[50.468135] (-) TimerEvent: {}
+[50.568990] (-) TimerEvent: {}
+[50.673175] (-) TimerEvent: {}
+[50.773741] (-) TimerEvent: {}
+[50.878275] (-) TimerEvent: {}
+[50.978830] (-) TimerEvent: {}
+[51.080460] (-) TimerEvent: {}
+[51.183890] (-) TimerEvent: {}
+[51.287356] (-) TimerEvent: {}
+[51.388295] (-) TimerEvent: {}
+[51.516782] (-) TimerEvent: {}
+[51.618432] (-) TimerEvent: {}
+[51.719800] (-) TimerEvent: {}
+[51.820385] (-) TimerEvent: {}
+[51.921395] (-) TimerEvent: {}
+[52.022088] (-) TimerEvent: {}
+[52.122824] (-) TimerEvent: {}
+[52.223472] (-) TimerEvent: {}
+[52.324105] (-) TimerEvent: {}
+[52.425230] (-) TimerEvent: {}
+[52.529103] (-) TimerEvent: {}
+[52.638048] (-) TimerEvent: {}
+[52.745922] (-) TimerEvent: {}
+[52.847502] (-) TimerEvent: {}
+[52.948483] (-) TimerEvent: {}
+[53.052634] (-) TimerEvent: {}
+[53.153161] (-) TimerEvent: {}
+[53.253816] (-) TimerEvent: {}
+[53.354527] (-) TimerEvent: {}
+[53.455788] (-) TimerEvent: {}
+[53.556400] (-) TimerEvent: {}
+[53.657269] (-) TimerEvent: {}
+[53.757805] (-) TimerEvent: {}
+[53.858647] (-) TimerEvent: {}
+[53.960094] (-) TimerEvent: {}
+[54.060847] (-) TimerEvent: {}
+[54.161514] (-) TimerEvent: {}
+[54.263490] (-) TimerEvent: {}
+[54.365716] (-) TimerEvent: {}
+[54.466522] (-) TimerEvent: {}
+[54.567093] (-) TimerEvent: {}
+[54.667716] (-) TimerEvent: {}
+[54.768330] (-) TimerEvent: {}
+[54.869432] (-) TimerEvent: {}
+[54.970060] (-) TimerEvent: {}
+[55.071418] (-) TimerEvent: {}
+[55.172345] (-) TimerEvent: {}
+[55.273324] (-) TimerEvent: {}
+[55.375797] (-) TimerEvent: {}
+[55.476343] (-) TimerEvent: {}
+[55.578223] (-) TimerEvent: {}
+[55.680353] (-) TimerEvent: {}
+[55.780866] (-) TimerEvent: {}
+[55.881354] (-) TimerEvent: {}
+[55.981880] (-) TimerEvent: {}
+[56.082456] (-) TimerEvent: {}
+[56.183290] (-) TimerEvent: {}
+[56.283911] (-) TimerEvent: {}
+[56.384549] (-) TimerEvent: {}
+[56.485256] (-) TimerEvent: {}
+[56.585761] (-) TimerEvent: {}
+[56.686322] (-) TimerEvent: {}
+[56.788555] (-) TimerEvent: {}
+[56.889242] (-) TimerEvent: {}
+[56.989840] (-) TimerEvent: {}
+[57.090579] (-) TimerEvent: {}
+[57.192755] (-) TimerEvent: {}
+[57.297346] (-) TimerEvent: {}
+[57.400187] (-) TimerEvent: {}
+[57.500796] (-) TimerEvent: {}
+[57.601841] (-) TimerEvent: {}
+[57.703173] (-) TimerEvent: {}
+[57.803942] (-) TimerEvent: {}
+[57.907762] (-) TimerEvent: {}
+[58.008346] (-) TimerEvent: {}
+[58.108829] (-) TimerEvent: {}
+[58.209329] (-) TimerEvent: {}
+[58.309784] (-) TimerEvent: {}
+[58.410853] (-) TimerEvent: {}
+[58.511518] (-) TimerEvent: {}
+[58.614068] (-) TimerEvent: {}
+[58.715135] (-) TimerEvent: {}
+[58.815873] (-) TimerEvent: {}
+[58.916768] (-) TimerEvent: {}
+[59.018894] (-) TimerEvent: {}
+[59.129071] (-) TimerEvent: {}
+[59.231554] (-) TimerEvent: {}
+[59.332180] (-) TimerEvent: {}
+[59.433149] (-) TimerEvent: {}
+[59.534684] (-) TimerEvent: {}
+[59.636309] (-) TimerEvent: {}
+[59.739353] (-) TimerEvent: {}
+[59.840179] (-) TimerEvent: {}
+[59.940848] (-) TimerEvent: {}
+[60.041439] (-) TimerEvent: {}
+[60.142165] (-) TimerEvent: {}
+[60.243212] (-) TimerEvent: {}
+[60.343750] (-) TimerEvent: {}
+[60.446839] (-) TimerEvent: {}
+[60.547771] (-) TimerEvent: {}
+[60.650626] (-) TimerEvent: {}
+[60.751218] (-) TimerEvent: {}
+[60.851929] (-) TimerEvent: {}
+[60.952705] (-) TimerEvent: {}
+[61.054777] (-) TimerEvent: {}
+[61.155404] (-) TimerEvent: {}
+[61.239555] (aruco_opencv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_opencv.dir/build.make:76: CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o] Error 1\n'}
+[61.240183] (aruco_opencv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/aruco_opencv.dir/all] Error 2\n'}
+[61.241110] (aruco_opencv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[61.253880] (aruco_opencv) CommandEnded: {'returncode': 2}
+[61.255536] (-) TimerEvent: {}
+[61.272771] (aruco_opencv) JobEnded: {'identifier': 'aruco_opencv', 'rc': 2}
+[61.287955] (-) EventReactorShutdown: {}

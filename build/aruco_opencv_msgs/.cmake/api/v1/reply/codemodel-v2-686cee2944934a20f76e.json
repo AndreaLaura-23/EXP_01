@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-29b789161cdb827565cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "aruco_opencv_msgs__py",
+					"jsonFile" : "directory-aruco_opencv_msgs__py-cdbadd86fce23bec642f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/exp_ws/build/aruco_opencv_msgs/aruco_opencv_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "aruco_opencv_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aruco_opencv_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aruco_opencv_msgs_egg-586cee0856006c3709ec.json",
+					"name" : "ament_cmake_python_build_aruco_opencv_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aruco_opencv_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aruco_opencv_msgs-e59a150ed4b3d0967d09.json",
+					"name" : "ament_cmake_python_copy_aruco_opencv_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs-2132ea98deb60f5be5a1.json",
+					"name" : "aruco_opencv_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__cpp-ec5ddcb4e5229bc0b559.json",
+					"name" : "aruco_opencv_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aruco_opencv_msgs__py::@9e37e6836c1f5e92d842",
+					"jsonFile" : "target-aruco_opencv_msgs__py-a80503b0c25dd656ddf6.json",
+					"name" : "aruco_opencv_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_generator_c-83e54e3f66168e9eabc8.json",
+					"name" : "aruco_opencv_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_generator_py-328469991b4fc63b65a1.json",
+					"name" : "aruco_opencv_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_generator_type_description-b88f73f6b00ec86ece31.json",
+					"name" : "aruco_opencv_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_typesupport_c-0bc2c03e76cdb2f9c9f8.json",
+					"name" : "aruco_opencv_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_typesupport_cpp-a1d9d02d21b2b6ad0ab2.json",
+					"name" : "aruco_opencv_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_typesupport_fastrtps_c-6064c370b9b360c150d5.json",
+					"name" : "aruco_opencv_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp-0a55dd2c3d10b33565de.json",
+					"name" : "aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_typesupport_introspection_c-cc345a7da21b95d4b69b.json",
+					"name" : "aruco_opencv_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs__rosidl_typesupport_introspection_cpp-3663c17741e44369d91d.json",
+					"name" : "aruco_opencv_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs_s__rosidl_typesupport_c-db04e06055da11ced8d6.json",
+					"name" : "aruco_opencv_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c-cbfd4648d9c050537c22.json",
+					"name" : "aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs_s__rosidl_typesupport_introspection_c-c48cfb7a1ab50b065703.json",
+					"name" : "aruco_opencv_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_msgs_uninstall-8e366a6ce2bf7adf1697.json",
+					"name" : "aruco_opencv_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0969868e5f25d4fbf1bc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/exp_ws/build/aruco_opencv_msgs",
+		"source" : "/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

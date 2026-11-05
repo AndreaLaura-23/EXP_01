@@ -1,0 +1,13 @@
+[01m[K/root/exp_ws/src/ros_aruco_opencv/aruco_opencv/src/aruco_tracker.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn aruco_opencv::ArucoTracker::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/exp_ws/src/ros_aruco_opencv/aruco_opencv/src/aruco_tracker.cpp:127:43:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Karuco_opencv::ArucoTracker[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+  127 |         image_transport::create_publisher([01;31m[K*this[m[K, "~/debug", rclcpp::QoS(5)));
+      |                                           [01;31m[K^~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Karuco_opencv::ArucoTracker[m[K
+In file included from [01m[K/root/exp_ws/src/ros_aruco_opencv/aruco_opencv/src/aruco_tracker.cpp:41[m[K:
+[01m[K/opt/ros/jazzy/include/image_transport/image_transport/image_transport.hpp:54:18:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kimage_transport::Publisher image_transport::[01;32m[Kcreate_publisher[m[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)[m[K’
+   54 |   [01;36m[Krclcpp::Node * node[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/aruco_opencv.dir/build.make:76: CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/aruco_opencv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

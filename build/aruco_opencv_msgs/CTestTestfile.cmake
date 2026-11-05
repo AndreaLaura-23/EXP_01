@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs
+# Build directory: /root/exp_ws/build/aruco_opencv_msgs
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(lint_cmake "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/root/exp_ws/build/aruco_opencv_msgs/test_results/aruco_opencv_msgs/lint_cmake.xunit.xml" "--package-name" "aruco_opencv_msgs" "--output-file" "/root/exp_ws/build/aruco_opencv_msgs/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/root/exp_ws/build/aruco_opencv_msgs/test_results/aruco_opencv_msgs/lint_cmake.xunit.xml")
+set_tests_properties(lint_cmake PROPERTIES  LABELS "lint_cmake;linter" TIMEOUT "60" WORKING_DIRECTORY "/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs" _BACKTRACE_TRIPLES "/opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_lint_cmake.cmake;47;ament_add_test;/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake;21;ament_lint_cmake;/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake;0;;/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;21;ament_execute_extensions;/opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;0;;/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake;66;ament_execute_extensions;/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs/CMakeLists.txt;21;ament_package;/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs/CMakeLists.txt;0;")
+subdirs("aruco_opencv_msgs__py")

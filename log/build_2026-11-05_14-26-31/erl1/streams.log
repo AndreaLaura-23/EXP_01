@@ -1,0 +1,66 @@
+[0.012s] Invoking command in '/root/exp_ws/build/erl1': CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv:/root/exp_ws/install/aruco_opencv_msgs:/root/exp_ws/install/erl1:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/erl1 -- -j14 -l14
+[0.032s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.218s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.243s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.408s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.445s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.454s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.527s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.527s] -- Configured cppcheck include dirs: 
+[0.527s] -- Configured cppcheck exclude dirs and/or files: 
+[0.528s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.528s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.529s] -- Added test 'lint_cmake' to check CMake code style
+[0.529s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.532s] -- Added test 'uncrustify' to check C / C++ code style
+[0.532s] -- Configured uncrustify additional arguments: 
+[0.533s] -- Added test 'xmllint' to check XML markup files
+[0.534s] -- Configuring done (0.5s)
+[0.549s] -- Generating done (0.0s)
+[0.556s] -- Build files have been written to: /root/exp_ws/build/erl1
+[0.591s] [ 50%] [32mBuilding CXX object CMakeFiles/marker_image_transport.dir/src/marker_image_transport.cpp.o[0m
+[7.258s] [100%] [32m[1mLinking CXX executable marker_image_transport[0m
+[7.514s] [100%] Built target marker_image_transport
+[7.526s] Invoked command in '/root/exp_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv:/root/exp_ws/install/aruco_opencv_msgs:/root/exp_ws/install/erl1:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/erl1 -- -j14 -l14
+[7.527s] Invoking command in '/root/exp_ws/build/erl1': CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv:/root/exp_ws/install/aruco_opencv_msgs:/root/exp_ws/install/erl1:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/erl1
+[7.535s] -- Install configuration: ""
+[7.535s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/rviz.launch.py
+[7.536s] -- Installing: /root/exp_ws/install/erl1/share/erl1/launch/spawn_assignment.launch.py
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/world.launch.py
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/launch/spawn.launch.py
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/worlds
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/worlds/assignment.sdf
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/worlds/my_world.sdf
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/urdf
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/urdf/my_robot.urdf
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/urdf/my_robot.gazebo
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/rviz
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/rviz/urdf.rviz
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/config
+[7.536s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/config/ekf.yaml
+[7.536s] -- Installing: /root/exp_ws/install/erl1/lib/erl1/marker_image_transport
+[7.540s] -- Set non-toolchain portion of runtime path of "/root/exp_ws/install/erl1/lib/erl1/marker_image_transport" to ""
+[7.540s] -- Up-to-date: /root/exp_ws/install/erl1/lib/erl1/marker_image_node.py
+[7.540s] -- Installing: /root/exp_ws/install/erl1/share/ament_index/resource_index/package_run_dependencies/erl1
+[7.540s] -- Up-to-date: /root/exp_ws/install/erl1/share/ament_index/resource_index/parent_prefix_path/erl1
+[7.540s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/ament_prefix_path.sh
+[7.540s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/ament_prefix_path.dsv
+[7.540s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/path.sh
+[7.540s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/environment/path.dsv
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.bash
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.sh
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.zsh
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/local_setup.dsv
+[7.541s] -- Installing: /root/exp_ws/install/erl1/share/erl1/package.dsv
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/ament_index/resource_index/packages/erl1
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/cmake/erl1Config.cmake
+[7.541s] -- Up-to-date: /root/exp_ws/install/erl1/share/erl1/cmake/erl1Config-version.cmake
+[7.541s] -- Installing: /root/exp_ws/install/erl1/share/erl1/package.xml
+[7.543s] Invoked command in '/root/exp_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv:/root/exp_ws/install/aruco_opencv_msgs:/root/exp_ws/install/erl1:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/erl1

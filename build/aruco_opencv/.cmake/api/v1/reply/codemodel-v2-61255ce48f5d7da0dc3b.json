@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc5b7a3e9128fa7ebb65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aruco_opencv",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv-07f62ce6f4e7d4c824a5.json",
+					"name" : "aruco_opencv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_opencv_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_opencv_uninstall-69a15991ee2b46484962.json",
+					"name" : "aruco_opencv_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_tracker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_tracker-ac3071c0c2c7ab359f70.json",
+					"name" : "aruco_tracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_tracker_autostart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_tracker_autostart-3f586f5d58f421452c5f.json",
+					"name" : "aruco_tracker_autostart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6b31194ee8164801e888.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/exp_ws/build/aruco_opencv",
+		"source" : "/root/exp_ws/src/ros_aruco_opencv/aruco_opencv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

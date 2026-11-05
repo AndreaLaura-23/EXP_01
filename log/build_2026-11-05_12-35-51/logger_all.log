@@ -1,0 +1,431 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=14, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b7a7fef0920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b7a7fef06b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b7a7fef06b0>>)
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/exp_ws'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/erl1) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erl1' with type 'ros.ament_cmake' and name 'erl1'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/aruco_box/materials/textures) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/doc) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/gz-world/gazebo_aruco_box/src) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-gazebo-aruco/images) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv' with type 'ros.ament_cmake' and name 'aruco_opencv'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv_msgs' with type 'ros.ament_cmake' and name 'aruco_opencv_msgs'
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /root/ros2_ws2/install
+[0.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/jazzy
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/exp_ws/build/aruco_opencv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/exp_ws/install/aruco_opencv_msgs', 'merge_install': False, 'path': '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'erl1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'erl1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/exp_ws/build/erl1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/exp_ws/install/erl1', 'merge_install': False, 'path': '/root/exp_ws/src/erl1', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/exp_ws/build/aruco_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/exp_ws/install/aruco_opencv', 'merge_install': False, 'path': '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs' with build type 'ament_cmake'
+[0.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv_msgs'
+[0.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/exp_ws/src/erl1' with build type 'ament_cmake'
+[0.419s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/exp_ws/src/erl1'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/exp_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/aruco_opencv_msgs -- -j14 -l14
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/exp_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/erl1 -- -j14 -l14
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/exp_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/erl1 -- -j14 -l14
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/exp_ws/build/erl1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/erl1
+[0.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erl1)
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/exp_ws/build/erl1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/erl1
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1' for CMake module files
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1' for CMake config files
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('erl1', 'cmake_prefix_path')
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/erl1/share/erl1/hook/cmake_prefix_path.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/erl1/share/erl1/hook/cmake_prefix_path.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/erl1/share/erl1/hook/cmake_prefix_path.sh'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/lib/pkgconfig/erl1.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/lib/python3.12/site-packages'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/exp_ws/install/erl1/share/erl1/package.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.bash'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.zsh'
+[0.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/exp_ws/install/erl1/share/colcon-core/packages/erl1)
+[0.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erl1)
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1' for CMake module files
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1' for CMake config files
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('erl1', 'cmake_prefix_path')
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/erl1/share/erl1/hook/cmake_prefix_path.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/erl1/share/erl1/hook/cmake_prefix_path.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/erl1/share/erl1/hook/cmake_prefix_path.sh'
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/bin'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/lib/pkgconfig/erl1.pc'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/lib/python3.12/site-packages'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/erl1/bin'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/exp_ws/install/erl1/share/erl1/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.sh'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.bash'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/erl1/share/erl1/package.zsh'
+[0.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/exp_ws/install/erl1/share/colcon-core/packages/erl1)
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/exp_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/exp_ws/build/aruco_opencv_msgs -- -j14 -l14
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/exp_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/aruco_opencv_msgs
+[1.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs' for CMake module files
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/exp_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/exp_ws/build/aruco_opencv_msgs
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/lib'
+[1.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/bin'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages'
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/bin'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[1.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/exp_ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[1.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs' for CMake module files
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs' for CMake config files
+[1.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/lib'
+[1.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/bin'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages'
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv_msgs/bin'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[1.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/exp_ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[1.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv' with build type 'ament_cmake'
+[1.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/exp_ws/src/ros_aruco_opencv/aruco_opencv'
+[1.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/exp_ws/build/aruco_opencv': AMENT_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/root/exp_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/exp_ws/build/aruco_opencv -- -j14 -l14
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/exp_ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/root/exp_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/exp_ws/build/aruco_opencv -- -j14 -l14
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/exp_ws/build/aruco_opencv': AMENT_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/root/exp_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/exp_ws/build/aruco_opencv
+[1.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv)
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv' for CMake module files
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/exp_ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/exp_ws/install/aruco_opencv_msgs:/root/ros2_ws2/install/my_robot_action_cpp:/root/ros2_ws2/install/first_package_cpp:/root/ros2_ws2/install/cpp_turtle_action:/root/ros2_ws2/install/cpp_tf2_pkg:/root/ros2_ws2/install/bme_gazebo_sensors:/root/ros2_ws2/install/assignment1:/root/ros2_ws2/install/action_tutorials_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/ros2_ws2/install/turtle_action_client:/root/ros2_ws2/install/python_tf2_pkg:/root/ros2_ws2/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/root/exp_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/exp_ws/install/aruco_opencv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/exp_ws/build/aruco_opencv
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv' for CMake config files
+[1.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'cmake_prefix_path')
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.ps1'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.sh'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/lib'
+[1.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'ld_library_path_lib')
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.dsv'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.sh'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/lib/pkgconfig/aruco_opencv.pc'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/lib/python3.12/site-packages'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/bin'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.sh'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.zsh'
+[1.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/exp_ws/install/aruco_opencv/share/colcon-core/packages/aruco_opencv)
+[1.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv)
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv' for CMake module files
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv' for CMake config files
+[1.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'cmake_prefix_path')
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/lib'
+[1.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'ld_library_path_lib')
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.sh'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/bin'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/lib/pkgconfig/aruco_opencv.pc'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/lib/python3.12/site-packages'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/root/exp_ws/install/aruco_opencv/bin'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.sh'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.bash'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/root/exp_ws/install/aruco_opencv/share/aruco_opencv/package.zsh'
+[1.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/exp_ws/install/aruco_opencv/share/colcon-core/packages/aruco_opencv)
+[1.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.444s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.454s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.214s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/exp_ws/install/local_setup.ps1'
+[2.252s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/exp_ws/install/_local_setup_util_ps1.py'
+[2.254s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/exp_ws/install/setup.ps1'
+[2.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/exp_ws/install/local_setup.sh'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/exp_ws/install/_local_setup_util_sh.py'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/exp_ws/install/setup.sh'
+[2.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/exp_ws/install/local_setup.bash'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/exp_ws/install/setup.bash'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/exp_ws/install/local_setup.zsh'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/exp_ws/install/setup.zsh'
