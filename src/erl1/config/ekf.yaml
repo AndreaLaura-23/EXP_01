@@ -1,0 +1,36 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: true          # planar robot: z, roll and pitch are ignored
+    publish_tf: true          # the EKF publishes the transform odom -> link_chassis
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: link_chassis   # the base frame of OUR robot
+    world_frame: odom               # we only estimate a continuous (odometric) pose
+
+    # Each sensor is configured with 15 booleans:
+    #   [x,     y,     z,
+    #    roll,  pitch, yaw,
+    #    vx,    vy,    vz,
+    #    vroll, vpitch, vyaw,
+    #    ax,    ay,    az]
+ # Wheel odometry (diff drive plugin): we trust its velocities
+    odom0: odom
+    odom0_config: [false, false, false,
+                   false, false, false,
+                   true,  true,  false,
+                   false, false, true,
+                   false, false, false]
+    odom0_differential: false
+
+    # IMU: we trust its orientation (yaw) and its angular velocity
+    imu0: imu
+    imu0_config: [false, false, false,
+                  false, false, true,
+                  false, false, false,
+                  false, false, true,
+                  false, false, false]
+    imu0_differential: false
+    imu0_remove_gravitational_acceleration: true
